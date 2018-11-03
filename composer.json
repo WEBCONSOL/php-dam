@@ -1,0 +1,25 @@
+{
+    "name": "webconsol/php-dam",
+    "version": "1.0.0",
+    "description": "WEBCONSOL PHP Digital Asset Management",
+    "type": "library",
+    "keywords": ["database"],
+    "homepage": "https://github.com/WEBCONSOL/php-dam",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sothea Nim",
+            "email": "sothea.nim@webconsol.com",
+            "homepage": "https://www.webconsol.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "webconsol/php-data-models": "1.0.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "WC\\DAM\\" : "src/"
+        }
+    }
+}
